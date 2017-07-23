@@ -40,7 +40,6 @@ public class QuickSort {
 			quickSort(arr, index, right);
 	}
 	
-	/* A utility function to print array of size n */
 	static void printArray(int arr[]) {
 		int n = arr.length;
 		for (int i = 0; i < n; ++i)
@@ -48,9 +47,7 @@ public class QuickSort {
 		System.out.println();
 	}
 
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 		int arr[] = { 12, 11, 13, 5, 6, 45, 88, 99, 22, 33, 58, 34, 7 };
 

@@ -6,9 +6,7 @@ public class MergeSort {
 
 	public MergeSort(int n) {
 		size = n;
-		// create array with size n
 		array = new int[n];
-		// asign value into the array
 		for (int i = 0; i < n; i++) {
 			array[i] = (int) Math.round(Math.random() * 89 + 10);
 		}
@@ -44,15 +42,10 @@ public class MergeSort {
 	}
 
 	public void merge_sort(int left, int right) {
-		// Check if low is smaller then high, if not then the array is sorted
 		if (left < right) {
-			// Get the index of the element which is in the middle
 			int mid = (left + right) / 2;
-			// Sort the left side of the array
 			merge_sort(left, mid);
-			// Sort the right side of the array
 			merge_sort(mid + 1, right);
-			// Combine them both
 			merge(left, mid, right);
 		}
 
