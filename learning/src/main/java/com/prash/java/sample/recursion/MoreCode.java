@@ -3,7 +3,7 @@ package com.prash.java.sample.recursion;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class TestMainMC2 {
+public class MoreCode {
 
 	public static final String mc_id = "abcdefghijklmnopqrstuvwxyz";
 
@@ -18,7 +18,7 @@ public class TestMainMC2 {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		System.out.println("Please enter the word:");
-		String text = in.nextLine();
+		String text = "sms";
 		int txtLength = text.length();
 
 		String strMorseCd = getMorseCode(text);
